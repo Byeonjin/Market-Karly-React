@@ -1,11 +1,12 @@
+import Footer from '@/components/Footer';
 import RouteLink from '@/components/RouteLink';
-import Test from '@/components/test';
 
 const Cart = () => {
   return (
     <div>
       <h2>Cart</h2>
       <RouteLink />
+      <Footer />
     </div>
   );
 };
